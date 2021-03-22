@@ -33,13 +33,16 @@ public class Driver_lab2b {
     //if b is equal to zero we can stop since we know the GCD and
     // subsequently x and y.
     if (b == 0){
+      System.out.println("HI");
       return new long[] {a,1,0};
+
     }
 
     /**
      * Using recursion to determine the GCD(d) then go in the reverse order to
      * determine the values of x and y from the previous recursions.
      */
+
     long[] temp = euclidAlgExt(b,a%b);
     long d = temp[0];
     long x = temp[2];
