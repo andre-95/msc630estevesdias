@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import main.AESCipher;
+import main.Lab4.AESCipher;
 import org.junit.jupiter.api.Test;
 
 public class Driver_lab4Test {

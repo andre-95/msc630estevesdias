@@ -6,11 +6,11 @@
  * due date: March 21, 2021
  */
 
-package main;
+package main.Lab4;
 
 import java.util.Scanner;
 
-import static main.AESCipher.aesRoundKeys;
+import static main.Lab4.AESCipher.aesRoundKeys;
 
 public class Driver_lab4 {
   /**
